@@ -14,7 +14,7 @@ export default function BidItem({ bid }: Props) {
         switch (bid.bidStatus) {
             case 'Accepted':
                 bgColor = 'bg-green-200'
-                text = 'Bid accepted'
+                text = 'Your have met the reserve amount. You can still bet until the completion of auction'
                 break;
             case 'AcceptedBelowReserve':
                 bgColor = 'bg-amber-500'
